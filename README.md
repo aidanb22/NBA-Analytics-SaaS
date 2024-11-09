@@ -47,7 +47,7 @@ pip install pip --upgrade && pip install -r requirements.txt
 ### Sample dotenv to dotnev
 
 ```bash
-cp .env.sample .env
+cp .env .env
 cat .env
 ```
 Values include:

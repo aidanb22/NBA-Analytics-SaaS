@@ -80,6 +80,7 @@ INSTALLED_APPS = [
     'allauth.socialaccount',
     'allauth.socialaccount.providers.github',
     "widget_tweaks",
+    "slippers"
 ]
 
 MIDDLEWARE = [
@@ -114,6 +115,10 @@ TEMPLATES = [
 
 WSGI_APPLICATION = "cfehome.wsgi.application"
 
+# Stripe Config
+# Stripe Configuration
+STRIPE_SECRET_KEY = config("STRIPE_SECRET_KEY", default=None)
+STRIPE_PUBLIC_KEY = config("STRIPE_PUBLIC_KEY", default=None)
 
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
