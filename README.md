@@ -8,7 +8,7 @@ NBA Analytics SaaS is an open source sports analytics platform that provides use
 
 ## **Features**
 - **Dynamic Dashboard**: Visualize advanced NBA statistics with customizable analytics tools.  
-- **Subscription Payments**: Integrated with Stripe for seamless billing and subscription management.  
+- **Subscription Payments**: Integrated with Stripe for practice with the framework; however the service is free for all!  
 - **Efficient Backend**: Built with Django and Neon for fast and reliable data processing.  
 - **Modern UI/UX**: Styled with TailwindCSS and Flowbite for an aesthetically pleasing experience.  
 - **CI/CD Workflows**: Deployed using Docker on Railway with automated GitHub Actions pipelines.
